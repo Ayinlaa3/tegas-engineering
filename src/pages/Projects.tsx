@@ -10,12 +10,26 @@ import projectMarine from "@/assets/project-marine.jpg";
 import cleanRoad from '@/assets/clean-road.jpg'
 import culvert1 from "@/assets/culvert.jpg"
 import culvert from "@/assets/culvert3.jpg"
-import layingAshpalt from "@/assets/laying-asphalt.jpg"
+import layingAsphalt from "@/assets/laying-asphalt.jpg"
 import roadConstruction from "@/assets/road-construction.jpg"
 import bedroomBungalow from "@/assets/bedroom-bungalow.jpg"
 import bedroomBungalow1 from "@/assets/bedroom-bungalow2.jpg"
 import bedroomBungalow2 from "@/assets/bedroom-bungalow3.jpg"
-
+import chemicalStore from "@/assets/chemical-store.jpg"
+import chemicalStore1 from "@/assets/Chemical-farm2.jpg"
+import crudeoilTanker from "@/assets/crudeoil-tank.jpg"
+import crudeoilTanker1 from "@/assets/crudeoil-tank2.jpg"
+import crudeoilTanker3 from "@/assets/crudeoil-tank3.jpg"
+import crudeoilTanker4 from "@/assets/crudeoil-tank4.jpg"
+import shellClinic from "@/assets/shell-clinic.jpg"
+import shellClinic1 from "@/assets/shell-clinic2.jpg"
+import railWayBridge from "@/assets/railway.jpg"
+import railWayBridge1 from "@/assets/railway2.jpg"
+import railWayBridge2 from "@/assets/railway3.jpg"
+import gasPlant from "@/assets/gas-plant.jpg"
+import gasPlant1 from "@/assets/gas-plant2.jpg"
+import roadGrading from "@/assets/road-grading.jpg"
+import roadGrading1 from "@/assets/road-grading2.jpg"
 
 const Projects = () => {
   const [activeCategory, setActiveCategory] = useState("All");
@@ -27,19 +41,28 @@ const Projects = () => {
     { image: cleanRoad, title: "Urban Road Network Development", category: "Roads" },
     { image: culvert1, title: "Bridge and Culvert Construction", category: "Roads"},
     { image: culvert, title: "Culvert Installation and Maintenance", category: "Roads" },
-    { image: layingAshpalt, title: "Asphalt Paving and Resurfacing", category: "Roads" },
+    { image: layingAsphalt, title: "Asphalt Paving and Resurfacing", category: "Roads" },
     { image: roadConstruction, title: "Rural Road Construction", category: "Roads" },
     { image: bedroomBungalow, title: "Residential Bungalow Project", category: "Buildings" },
     { image: bedroomBungalow1, title: "Luxury Home Development", category: "Buildings" },
     { image: bedroomBungalow2, title: "Custom Residential Design", category: "Buildings" },
-
-
-    { image: projectBuilding, title: "Commercial Complex Development", category: "Buildings" },
-    { image: projectBuilding, title: "Industrial Facility Construction", category: "Buildings" },
+    { image: chemicalStore, title: "Chemical Storage Facility", category: "Buildings" },
+    { image: chemicalStore1, title: "Industrial Chemical Storage", category: "Buildings" },
+    { image: crudeoilTanker, title: "Crude Oil Tank Farm", category: "Oil & Gas" },
+    { image: crudeoilTanker1, title: "Oil Storage Solutions", category: "Oil & Gas" },
+    { image: crudeoilTanker3, title: "Petroleum Storage Facility", category: "Oil & Gas" }, 
+    { image: crudeoilTanker4, title: "Fuel Storage and Distribution", category: "Oil & Gas" },
     { image: projectPipeline, title: "Oil & Gas Pipeline Network", category: "Oil & Gas" },
     { image: projectPipeline, title: "Drilling Location Preparation", category: "Oil & Gas" },
-    { image: projectMarine, title: "Offshore Jetty Construction", category: "Marine" },
-    { image: projectMarine, title: "Port Infrastructure Development", category: "Marine" },
+    { image: shellClinic, title: "Corporate Clinic Construction", category: "Buildings" },
+    { image: shellClinic1, title: "Corporate Clinic Construction", category: "Buildings" },
+    { image: railWayBridge, title: "Railway Bridge Construction", category: "Marine" },
+    { image: railWayBridge1, title: "Railway Bridge Renovation", category: "Marine" },
+    { image: railWayBridge2, title: "Railway Bridge Maintenance", category: "Marine" },
+    { image: gasPlant, title: "Gas Processing Plant", category: "Oil & Gas" },
+    { image: gasPlant1, title: "Natural Gas Facility", category: "Oil & Gas" },
+    { image: roadGrading, title: "Road Grading and Earthworks", category: "Roads" },
+    { image: roadGrading1, title: "Land Grading and Site Preparation", category: "Roads" },
   ];
 
   const filteredProjects = activeCategory === "All" 
