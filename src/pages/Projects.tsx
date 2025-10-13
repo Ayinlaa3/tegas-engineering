@@ -7,6 +7,15 @@ import projectRoads from "@/assets/project-roads.jpg";
 import projectBuilding from "@/assets/project-building.jpg";
 import projectPipeline from "@/assets/project-pipeline.jpg";
 import projectMarine from "@/assets/project-marine.jpg";
+import cleanRoad from '@/assets/clean-road.jpg'
+import culvert1 from "@/assets/culvert.jpg"
+import culvert from "@/assets/culvert3.jpg"
+import layingAshpalt from "@/assets/laying-asphalt.jpg"
+import roadConstruction from "@/assets/road-construction.jpg"
+import bedroomBungalow from "@/assets/bedroom-bungalow.jpg"
+import bedroomBungalow1 from "@/assets/bedroom-bungalow2.jpg"
+import bedroomBungalow2 from "@/assets/bedroom-bungalow3.jpg"
+
 
 const Projects = () => {
   const [activeCategory, setActiveCategory] = useState("All");
@@ -15,7 +24,16 @@ const Projects = () => {
 
   const projects = [
     { image: projectRoads, title: "Highway Infrastructure Project", category: "Roads" },
-    { image: projectRoads, title: "Urban Road Network Development", category: "Roads" },
+    { image: cleanRoad, title: "Urban Road Network Development", category: "Roads" },
+    { image: culvert1, title: "Bridge and Culvert Construction", category: "Roads"},
+    { image: culvert, title: "Culvert Installation and Maintenance", category: "Roads" },
+    { image: layingAshpalt, title: "Asphalt Paving and Resurfacing", category: "Roads" },
+    { image: roadConstruction, title: "Rural Road Construction", category: "Roads" },
+    { image: bedroomBungalow, title: "Residential Bungalow Project", category: "Buildings" },
+    { image: bedroomBungalow1, title: "Luxury Home Development", category: "Buildings" },
+    { image: bedroomBungalow2, title: "Custom Residential Design", category: "Buildings" },
+
+
     { image: projectBuilding, title: "Commercial Complex Development", category: "Buildings" },
     { image: projectBuilding, title: "Industrial Facility Construction", category: "Buildings" },
     { image: projectPipeline, title: "Oil & Gas Pipeline Network", category: "Oil & Gas" },
