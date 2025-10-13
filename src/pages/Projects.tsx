@@ -3,10 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ProjectCard from "@/components/ProjectCard";
 import { Button } from "@/components/ui/button";
-import projectRoads from "@/assets/project-roads.jpg";
-import projectBuilding from "@/assets/project-building.jpg";
-import projectPipeline from "@/assets/project-pipeline.jpg";
-import projectMarine from "@/assets/project-marine.jpg";
+
 import cleanRoad from '@/assets/clean-road.jpg'
 import culvert1 from "@/assets/culvert.jpg"
 import culvert from "@/assets/culvert3.jpg"
@@ -28,6 +25,8 @@ import railWayBridge1 from "@/assets/railway2.jpg"
 import railWayBridge2 from "@/assets/railway3.jpg"
 import gasPlant from "@/assets/gas-plant.jpg"
 import gasPlant1 from "@/assets/gas-plant2.jpg"
+import waterTank from "@/assets/water-tank.jpg" 
+import tankwaterFarm from "@/assets/tank-waterfarm.jpg"
 import roadGrading from "@/assets/road-grading.jpg"
 import roadGrading1 from "@/assets/road-grading2.jpg"
 
@@ -37,7 +36,6 @@ const Projects = () => {
   const categories = ["All", "Roads", "Buildings", "Oil & Gas", "Marine"];
 
   const projects = [
-    { image: projectRoads, title: "Highway Infrastructure Project", category: "Roads" },
     { image: cleanRoad, title: "Urban Road Network Development", category: "Roads" },
     { image: culvert1, title: "Bridge and Culvert Construction", category: "Roads"},
     { image: culvert, title: "Culvert Installation and Maintenance", category: "Roads" },
@@ -52,8 +50,6 @@ const Projects = () => {
     { image: crudeoilTanker1, title: "Oil Storage Solutions", category: "Oil & Gas" },
     { image: crudeoilTanker3, title: "Petroleum Storage Facility", category: "Oil & Gas" }, 
     { image: crudeoilTanker4, title: "Fuel Storage and Distribution", category: "Oil & Gas" },
-    { image: projectPipeline, title: "Oil & Gas Pipeline Network", category: "Oil & Gas" },
-    { image: projectPipeline, title: "Drilling Location Preparation", category: "Oil & Gas" },
     { image: shellClinic, title: "Corporate Clinic Construction", category: "Buildings" },
     { image: shellClinic1, title: "Corporate Clinic Construction", category: "Buildings" },
     { image: railWayBridge, title: "Railway Bridge Construction", category: "Marine" },
@@ -63,6 +59,8 @@ const Projects = () => {
     { image: gasPlant1, title: "Natural Gas Facility", category: "Oil & Gas" },
     { image: roadGrading, title: "Road Grading and Earthworks", category: "Roads" },
     { image: roadGrading1, title: "Land Grading and Site Preparation", category: "Roads" },
+    { image: waterTank, title: "Water Storage Tank", category: "Roads" },
+    { image: tankwaterFarm, title: "Water Tank Farm Construction", category: "Buildings" },
   ];
 
   const filteredProjects = activeCategory === "All" 
