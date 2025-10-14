@@ -14,10 +14,10 @@ import ServiceCard from "@/components/ServiceCard";
 import ProjectCard from "@/components/ProjectCard";
 import ValueCard from "@/components/ValueCard";
 import heroImage from "@/assets/hero-construction.jpg";
-import projectRoads from "@/assets/project-roads.jpg";
-import projectBuilding from "@/assets/project-building.jpg";
-import projectPipeline from "@/assets/project-pipeline.jpg";
-import projectMarine from "@/assets/project-marine.jpg";
+import projectRoads from "@/assets/engineers-working.jpg";
+import projectBuilding from "@/assets/bedroom-bungalow4.jpg";
+import projectPipeline from "@/assets/crudeoil-tank.jpg";
+import projectMarine from "@/assets/railway2.jpg";
 
 const Index = () => {
   const services = [
