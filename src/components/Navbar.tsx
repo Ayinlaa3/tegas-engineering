@@ -29,7 +29,7 @@ const Navbar = () => {
             <img src={logo} alt="Tegas Engineering Logo" className="h-12 w-auto object-contain" />
 
             <p className="text-xs sm:text-sm font-medium text-blue-600">
-              Engineering Excellence
+              Engineering Company Ltd
             </p>
           </Link>
 

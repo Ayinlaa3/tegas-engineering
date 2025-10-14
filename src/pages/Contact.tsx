@@ -101,9 +101,17 @@ const Contact = () => {
               </div>
 
               {/* Map placeholder */}
-              <div className="mt-12 rounded-lg overflow-hidden border h-64 bg-muted flex items-center justify-center">
-                <p className="text-muted-foreground">Map Location</p>
-              </div>
+                <div className="mt-12 rounded-lg overflow-hidden border h-64">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.330732843924!2d5.728982874884812!3d5.553929034457167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1041ac82a55894cb%3A0x5a4b47f796b029eb!2sEffurun%2C%20Warri%2C%20Delta%20State!5e0!3m2!1sen!2sng!4v1728894500000!5m2!1sen!2sng"
+                      width="100%"
+                      height="100%"
+                      style={{ border: 0 }}
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                  </div>
+
             </div>
 
             {/* Contact Form */}

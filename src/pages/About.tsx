@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Award, Target, Eye, Heart } from "lucide-react";
+import chairmanImg from "@/assets/chairman.jpg"
 
 const About = () => {
   return (
@@ -94,7 +95,7 @@ const About = () => {
       </section>
 
       {/* Chairman's Statement */}
-      <section className="py-20 bg-background">
+      {/* <section className="py-20 bg-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center mb-8">
@@ -124,7 +125,51 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+
+
+      {/* Chairman's Statement */}
+<section className="py-20 bg-background">
+  <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="max-w-4xl mx-auto text-center">
+      {/* Chairman Image */}
+      <img
+        src= {chairmanImg} // 👈 replace with your actual image path
+        alt="Chairman Engr. (Chief) Blessing T. Oboh"
+        className="w-48 h-48 object-cover rounded-full mx-auto mb-6 shadow-lg"
+      />
+
+      <div className="flex justify-center items-center mb-8">
+        <Heart className="h-8 w-8 text-primary mr-3" />
+        <h2 className="text-3xl font-bold">Chairman's Statement</h2>
+      </div>
+
+      <div className="bg-muted/50 p-8 rounded-lg text-left">
+        <div className="prose prose-lg max-w-none space-y-6">
+          <p className="text-muted-foreground leading-relaxed italic">
+            "Since our establishment in 1982, TEGAS has grown from strength to strength, building a reputation for excellence, reliability, and innovation in the construction industry. Our journey has been guided by an unwavering commitment to quality and safety."
+          </p>
+          <p className="text-muted-foreground leading-relaxed">
+            We take pride in our contributions to Nigeria's infrastructure development and our role in empowering local content. Our team of dedicated professionals brings together decades of combined experience, modern engineering practices, and a deep understanding of the Nigerian construction landscape.
+          </p>
+          <p className="text-muted-foreground leading-relaxed">
+            As we look to the future, TEGAS remains committed to sustainable development, continuous improvement, and delivering value to our clients and stakeholders. We believe that quality construction is not just about building structures, but about building lasting relationships and contributing to national development.
+          </p>
+          <p className="text-muted-foreground leading-relaxed">
+            Thank you for your continued trust in TEGAS. We look forward to serving you and building a stronger future together.
+          </p>
+        </div>
+
+        <div className="mt-8 pt-6 border-t">
+          <p className="font-semibold text-lg">Engr. (Chief) Blessing T. Oboh</p>
+          <p className="text-sm text-muted-foreground">MEng., C.Eng., FNSE, FASCE, FNICE, FIMC</p>
+          <p className="text-sm font-medium text-primary">Chairman/CEO</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       <Footer />
     </div>
