@@ -88,12 +88,12 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-lg mb-1">Email</h3>
                     <p className="text-muted-foreground">
-                      <a href="mailto:tegabee@yahoo.com" className="hover:text-primary transition-colors">
-                        tegabee@yahoo.com
+                      <a href="mailto:info@tegaseng.com" className="hover:text-primary transition-colors">
+                        info@tegaseng.com
                       </a>
                       <br />
-                      <a href="mailto:tegas.eng.co.ltd@gmail.com" className="hover:text-primary transition-colors">
-                        tegas.eng.co.ltd@gmail.com
+                      <a href="mailto:tegabee@yahoo.com" className="hover:text-primary transition-colors">
+                        tegabee@yahoo.com
                       </a>
                     </p>
                   </div>

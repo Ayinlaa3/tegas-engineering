@@ -76,6 +76,9 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 flex-shrink-0" />
+                <a href="mailto:info@tegaseng.com" className="text-sm opacity-80 hover:opacity-100 transition-opacity">
+                  info@tegaseng.com,
+                </a>
                 <a href="mailto:tegabee@yahoo.com" className="text-sm opacity-80 hover:opacity-100 transition-opacity">
                   tegabee@yahoo.com
                 </a>
