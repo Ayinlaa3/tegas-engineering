@@ -77,7 +77,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg mb-1">Phone</h3>
-                    <p className="text-muted-foreground">08023052646</p>
+                    <p className="text-muted-foreground">08023052646, 07035504815</p>
                   </div>
                 </div>
 
